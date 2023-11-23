@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"  />
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0"/>
+    <title>Welcome to AGXIUM</title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+	<link rel="stylesheet" type="text/css" href="login_large.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width:50pX) and (max-width:500px)" href='login_small.css' />
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width:501pX) and (max-width:950px)" href="login_medium.css" />
+    <link rel="shortcut icon"  href="img/A-logo.png">
+    <script src="jquary_libraries.js"></script>
+    <script src="loginvalidation.js"></script>
+
+   
+</head>
+<body>
+	   <div class='tableview' >
+	    <div class="loginbg">
+
+               <form action="login.php" class="form">
+                   <div class='form'>
+				   <div class="logincontainer">
+
+
+                       <input type="text" class="userid" accesskey="userid" id="userid"  placeholder="enter your ID" /><span class="errors" id="useriderror"></span> 
+                       
+                       <input type="password" class="passid" id="password" placeholder="enter your password" /><span class="errors" id="passworderror"></span>
+
+
+                       <p class="pwhite">
+                           <a href="forget_password.html">Forget your password ?</a>
+                       <p />
+                       <p class="pwhite">
+                           <input type="checkbox" class="remeberuserpassword" />
+                           <label id="keepme" class="pwhite">
+                               Keep me loged in
+                           </label>
+                       </p>
+
+                   </div>
+                   <div class="buttons">
+                       <input type="button" id="login" class="loginbu" value="LOG IN" /> 
+                       <input type="button" class="signupbu" value="SIGN UP" onclick="window.location.href='sign_up.html'" />
+                   </div>
+                 </div>
+
+               </form>
+        </div>
+	<div class="abstract">
+	   <p>
+	   AGXIUM is an interactive site that links the medical community with each other and with the patient in order to make the patient's therapeutic data available and allowed to all doctors, pharmacists, nurses, analysis technicians and other members of the medical community
+       </p>
+	   <p>
+	   AGXIUM also connects pharmacists and doctors to manufactured and distributed pharmaceutical companies and makes orders easier, faster and more cost-effective
+	   </p>
+	   <p>
+        AGXIUM is not only for Professionals but also facilitates communication between students of medical colleges and their teachers and provides them with all updated medical information, It's also a research site
+        </p>
+		<p>
+        AGXIUM also considered as the link between health institutions, patients and the medical community
+       </p>
+       <p> <i>
+       Join the AGXIUM NOW to discover all this and more
+	   </i>
+	   </p>
+	  <br></br>
+
+              
+	</div>
+          
+</div>
+           <div class="footer">
+
+<div class="langselect">
+               <select class="languageselect" id="languageselect" onchange="javascript:handleSelect(this)">
+<script type="text/javascript">
+function handleSelect(elm)
+{
+window.location = elm.value;
+}
+</script>
+                   <option lang="ar" value="../ar/index.html">العربية</option>
+                   <option lang="af" value="../af/index.html">Afrikaans</option>
+                   <option lang="am" value="../am/index.html">አማርኛ</option>
+                   <option lang="hy" value="../hy/index.html">հայերեն</option>
+                   <option lang="az" value="../az/index.html">Azərbaycan</option>
+                   <option lang="eu" value="../eu/index.html">Euskal</option>
+                   <option lang="be" value="../be/index.html">беларускі</option>
+                   <option lang="bn" value="../bn/index.html">বাঙালি</option>
+                   <option lang="bs" value="../bs/index.html">Bosanski</option>
+                   <option lang="bg" value="../bg/index.html">български</option>
+                   <option lang="ca" value="../ca/index.html">Català</option>
+                   <option lang="ceb" value="../ceb/index.html">Cebuano</option>
+                   <option lang="ny" value="../ny/index.html">chichewa</option>
+                   <option lang="zh-hans" value="../zh-hans/index.html">简体中文</option>
+                   <option lang="zh-hant" value="../zh-hant/index.html">中國傳統的</option>
+                   <option lang="co" value="../co/index.html">Corsu</option>
+                   <option lang="hr" value="../hr/index.html">Hrvatski</option>
+                   <option lang="cs" value="../cs/index.html">čeština</option>
+                   <option lang="da" value="../da/index.html">dansk</option>
+                   <option lang="nl" value="../nl/index.html">Nederlands</option>
+                   <option lang="en" selected="selected" value="../en/index.html">English</option>
+                   <option lang="eo" value="../eo/index.html">Esperanto</option>
+                   <option lang="et" value="../et/index.html">eesti keel</option>
+                   <option lang="fil" value="../fil/index.html">Filipino</option>
+                   <option lang="fi" value="../fi/index.html">Suomalainen</option>
+                   <option lang="fr" value="../fr/index.html">français</option>
+                   <option lang="frs" value="../frs/index.html">Frysk</option>
+                   <option lang="gl" value="/AGXIUM website/gl/index.html">Galego</option>
+                   <option lang="ka" value="/AGXIUM website/ka/index.html">ქართული</option>
+                   <option lang="de" value="/AGXIUM website/de/index.html">Deutsche</option>
+                   <option lang="el" value="/AGXIUM website/el/index.html">Ελληνικά</option>
+                   <option lang="gu" value="/AGXIUM website/gu/index.html">ગુજરાતી</option>
+                   <option lang="ht" value="/AGXIUM website/ht/index.html">Kreyòl Ayisyen</option>
+                   <option lang="ha" value="/AGXIUM website/ha/index.html">Hausa</option>
+                   <option lang="haw" value="/AGXIUM website/haw/index.html">ʻŌlelo Hawaiʻi</option>
+                   <option lang="he" value="/AGXIUM website/he/index.html">עִברִית</option>
+                   <option lang="hi" value="/AGXIUM website/hi/index.html">हिंदी</option>
+                   <option value="Hmong">Hmoob</option>
+                   <option lang="hmn" value="/AGXIUM website/hmn/index.html">Magyar</option>
+                   <option lang="is" value="/AGXIUM website/is/index.html">Íslensku</option>
+                   <option lang="ig" value="/AGXIUM website/ig/index.html">Igbo</option>
+                   <option lang="id" value="/AGXIUM website/id/index.html">bahasa Indonesia</option>
+                   <option lang="ga" value="/AGXIUM website/ga/index.html">Gaeilge</option>
+                   <option lang="it" value="/AGXIUM website/it/index.html">italiano</option>
+                   <option lang="ja" value="/AGXIUM website/ja/index.html">日本語</option>
+                   <option lang="jv" value="/AGXIUM website/jv/index.html">Wong Jawa</option>
+                   <option lang="kn" value="/AGXIUM website/kn/index.html">ಕನ್ನಡ</option>
+                   <option lang="kk" value="/AGXIUM website/kk/index.html">Қазақша</option>
+                   <option lang="km" value="/AGXIUM website/km/index.html">ភាសាខ្មែរ</option>
+                   <option lang="ko" value="/AGXIUM website/ko/index.html">한국어</option>
+                   <option lang="ku" value="/AGXIUM website/ku/index.html">Kurdî (Kurmancî)</option>
+                   <option lang="ky" value="/AGXIUM website/ky/index.html">Кыргызча</option>
+                   <option lang="lo" value="/AGXIUM website/lo/index.html">ລາວ</option>
+                   <option lang="la" value="/AGXIUM website/la/index.html">Latine</option>
+                   <option lang="lv" value="/AGXIUM website/lv/index.html">Latviešu</option>
+                   <option lang="lt" value="/AGXIUM website/lt/index.html">Lietuviškai</option>
+                   <option lang="lb" value="/AGXIUM website/lb/index.html">lëtzebuergesch</option>
+                   <option lang="mk" value="/AGXIUM website/mk/index.html">Македонски</option>
+                   <option lang="mg" value="/AGXIUM website/mg/index.html">Malagasy</option>
+                   <option lang="ms" value="/AGXIUM website/ms/index.html">Melayu</option>
+                   <option lang="ml" value="/AGXIUM website/ml/index.html">മലയാളം</option>
+                   <option lang="mt" value="/AGXIUM website/mt/index.html">Malti</option>
+                   <option lang="mi" value="/AGXIUM website/mi/index.html">Maori</option>
+                   <option lang="mr" value="/AGXIUM website/mr/index.html">मराठी</option>
+                   <option lang="mn" value="/AGXIUM website/mn/index.html">монгол хэл</option>
+                   <option lang="mya" value="/AGXIUM website/mya/index.html">မြန်မာ (ဗမာ)</option>
+                   <option lang="ne" value="/AGXIUM website/ne/index.html">नेपली</option>
+                   <option lang="nn" value="/AGXIUM website/nn/index.html">norsk</option>
+                   <option lang="ps" value="/AGXIUM website/ps/index.html">پښتو</option>
+                   <option lang="fa" value="/AGXIUM website/fa/index.html">فارسی</option>
+                   <option lang="pl" value="/AGXIUM website/pl/index.html">Polskie</option>
+                   <option lang="pt" value="/AGXIUM website/pt/index.html">Português</option>
+                   <option lang="pa" value="/AGXIUM website/pa/index.html">ਪੰਜਾਬੀ</option>
+                   <option lang="ro" value="/AGXIUM website/ro/index.html">Română</option>
+                   <option lang="ru" value="/AGXIUM website/ru/index.html">русский</option>
+                   <option lang="sm" value="/AGXIUM website/sm/index.html">Samoa</option>
+                   <option lang="sco" value="/AGXIUM website/sco/index.html">Gàidhlig na h-Alba</option>
+                   <option lang="sr" value="/AGXIUM website/sr/index.html">Српски</option>
+                   <option lang="st" value="/AGXIUM website/st/index.html">Sesotho</option>
+                   <option lang="sn" value="/AGXIUM website/sn/index.html">Shona</option>
+                   <option lang="sd" value="/AGXIUM website/sd/index.html">سنڌي</option>
+                   <option lang="si" value="/AGXIUM website/si/index.html">සිංහල</option>
+                   <option lang="sk" value="/AGXIUM website/sk/index.html">slovenský</option>
+                   <option lang="sl" value="/AGXIUM website/sl/index.html">Slovenščina</option>
+                   <option lang="so" value="/AGXIUM website/so/index.html">Somali</option>
+                   <option lang="es" value="/AGXIUM website/es/index.html">Español</option>
+                   <option lang="su" value="/AGXIUM website/su/index.html">tembang sunda</option>
+                   <option lang="sw" value="/AGXIUM website/sw/index.html">Kiswahili</option>
+                   <option lang="sv" value="/AGXIUM website/sv/index.html">svenska</option>
+                   <option lang="tg" value="/AGXIUM website/tg/index.html">Тоҷикӣ</option>
+                   <option lang="ta" value="/AGXIUM website/ta/index.html">தமிழ்</option>
+                   <option lang="te" value="/AGXIUM website/te/index.html">తెలుగు</option>
+                   <option lang="th" value="/AGXIUM website/th/index.html">ไทย</option>
+                   <option lang="tr" value="/AGXIUM website/tr/index.html">Türk</option>
+                   <option lang="uk" value="/AGXIUM website/uk/index.html">український</option>
+                   <option lang="ur" value="/AGXIUM website/ur/index.html">اردو</option>
+                   <option lang="uz" value="/AGXIUM website/uz/index.html">O'zbek</option>
+                   <option lang="vi" value="/AGXIUM website/vi/index.html">Tiếng việt</option>
+                   <option lang="cy" value="/AGXIUM website/cy/index.html">Cymraeg</option>
+                   <option lang="xh" value="/AGXIUM website/xh/index.html">isiXhosa</option>
+                   <option lang="yi" value="/AGXIUM website/yi/index.html">ייִדיש</option>
+                   <option lang="yo" value="/AGXIUM website/yo/index.html">Yorùbá</option>
+                   <option lang="zu" value="/AGXIUM website/zu/index.html">Zulu</option>
+
+
+               </select> &nbsp;&nbsp;
+               			   <input type="text" name="search" placeholder="Search..." /> &nbsp;&nbsp;
+              <label class='term-policy'  >
+			  <a class='termsandconditions' href='privacy.html'> Privacy Policy </a>
+			  <a class='termsandconditions' href='terms_conditions.html'> Terms and Conditions</a>
+			  </label>
+			  	    <p class="copywrite">
+                   All rights recived AGXIUM  CO. &copy; 2018 
+        </p>
+			   </div>
+           </div>
+
+    </body>
+
+</html>
